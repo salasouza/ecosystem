@@ -1,9 +1,12 @@
 FROM python:3.8-slim
 
+#Utils
+
 WORKDIR /project
 
 COPY requirements.txt requirements.txt
 
+# Libraries anda packages 
 RUN pip3 -q install pip --upgrade && \
   pip3 install -r requirements.txt
 
