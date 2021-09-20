@@ -6,7 +6,7 @@ WORKDIR /project
 
 COPY requirements.txt requirements.txt
 
-# Libraries anda packages 
+# Python and Dependencies
 RUN pip3 -q install pip --upgrade && \
   pip3 install -r requirements.txt
 
