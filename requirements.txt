@@ -1,12 +1,13 @@
-# Libs Python
+# Libraries used in Python
 
 pandas
 matplotlib
 seaborn
 jupyter
 scikit-learn
+scipy
 numpy
 statsmodels
-joblib 
+joblib
 wordcloud
 pyspark
