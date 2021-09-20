@@ -1,0 +1,7 @@
+# Libs Python
+
+pandas
+matplotlib
+seaborn
+jupyter
+scikit-learn
