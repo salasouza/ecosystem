@@ -1,0 +1,13 @@
+###### Meu
+version: "3"
+services:
+  job:
+    image: python_local:latest
+    container_name: job
+    build:
+      context: .
+      dockerfile: Dockerfile # e ta na raiz do projeto não especifico o build pois é automatico por padrão
+    ports:
+    - "8888:8888"
+
+#docker run --rm --name job -p 8888:8888 -v $(pwd)/:/project -d python_local:latest

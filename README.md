@@ -2,7 +2,7 @@
 
 Docker enviroment
 
-# Instructions
+# Instructions for docker
 
 ``` sh
     docker build -f Dockerfile -t python_local .  # build dockerfile
@@ -14,5 +14,11 @@ Docker enviroment
     docker exec -it job bash  # enter in docker
 
     docker rm -f job          # kill docker
+```
+# Instructions for docker-compose 
 
+``` sh
+    docker-compose up -d # Creating job
+    docker-compose ps    # see docker-compose 
+    docker-compose exec job bash # To execute docker-compose 
 ```
