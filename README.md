@@ -1,6 +1,6 @@
 # Ecosystem
 
-Docker enviroment
+Docker environment
 
 ## Instructions for docker
 
@@ -21,6 +21,6 @@ Docker enviroment
     docker-compose up -d # Creating job
 
     docker-compose ps    # see docker-compose
-    
+
     docker-compose exec job bash # To execute docker-compose
 ```
