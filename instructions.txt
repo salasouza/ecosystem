@@ -1,0 +1,3 @@
+Instructions about Docker
+
+docker info
