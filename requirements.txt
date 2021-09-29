@@ -11,3 +11,6 @@ statsmodels
 joblib
 wordcloud
 pyspark
+google-cloud
+google-cloud-bigquery[pandas]
+google-cloud-storage

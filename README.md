@@ -7,7 +7,10 @@ Docker environment
 ``` sh
     docker build -f Dockerfile -t python_local .  # build dockerfile
 
-    docker run --rm --name job -p 8888:8888 -v $(pwd)/:/project -d python_local:latest # create container
+    docker run --rm --name job -p 8888:8888 -v $(pwd)/:/project -d python_local:latest # create container mapeando a pasta project
+
+    # docker run --rm --name job -p 8888:8888  -d python_local:latest # create container -->
+    # utilizando arquivos internos da imagem docker 
 
     docker ps                 # see docker
 

@@ -1,4 +1,7 @@
+# Folders
 locallake/
+
+# Files
 .ipynb_checkpoints/
 test.py
 test.csv
