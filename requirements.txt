@@ -1,5 +1,4 @@
-# Libraries used in Python:
-
+# Libs Python
 pandas
 matplotlib
 seaborn
@@ -10,7 +9,11 @@ numpy
 statsmodels
 joblib
 wordcloud
+
+# Libs for spark
 pyspark
+
+# Libs for GCP
 google-cloud
 google-cloud-bigquery[pandas]
 google-cloud-storage
