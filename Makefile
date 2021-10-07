@@ -1,14 +1,14 @@
 buildDocker:
 	# Run build Docker
-	bash buildDocker.sh
+	bash /scripts/buildDocker.sh
 
 createContainer:
 	# Run Create container
-	bash createContainer.sh
+	bash /scripts/createContainer.sh
 
 killDocker:
 	# Run kill docler
-	bash killDocker.sh
+	bash /scripts/killDocker.sh
 
 compose-job:
 	# Run build
