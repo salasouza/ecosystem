@@ -2,19 +2,19 @@ help:
 	#----------------------------------------------------------------------------#
 	# Codes for docker:                                                          #
 	#----------------------------------------------------------------------------#
-		# + Run make buildDocker
-		# + Run make createContainer
-		# + Run make createAndBuild --> shortcut for build Docker and Container
-		# + Run make logs --> open jupyter notebook
-		# + Run make killDocker
+	# + Run make buildDocker
+	# + Run make createContainer
+	# + Run make createAndBuild --> shortcut for build Docker and Container
+	# + Run make logs --> open jupyter notebook
+	# + Run make killDocker
 	#----------------------------------------------------------------------------#
 	#----------------------------------------------------------------------------#
 	# Codes for docker-compose:                                                  #
 	#----------------------------------------------------------------------------#
-		# + Run make compose-job
-	  # + Run make compose-ps
-	  # + Run make compose-logs
-		# + Run make compose-stop --> stops the containers
+	# + Run make compose-job
+	# + Run make compose-ps
+	# + Run make compose-logs
+	# + Run make compose-stop --> stops the containers
 	#----------------------------------------------------------------------------#
 	# Done!!!                                                                    #
 	#----------------------------------------------------------------------------#
