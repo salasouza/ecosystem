@@ -5,8 +5,9 @@ help:
 	# + Run make buildDocker
 	# + Run make createContainer
 	# + Run make createAndBuild --> shortcut for build Docker and Container
-	# + Run make logs --> open jupyter notebook
+	# + Run make logsDocker --> open jupyter notebook
 	# + Run make killDocker
+	# + Run make psDocker --> see docker
 	#----------------------------------------------------------------------------#
 	#----------------------------------------------------------------------------#
 	# Codes for docker-compose:                                                  #
@@ -21,7 +22,7 @@ help:
 
 createAndBuild: buildDocker createContainer # CI - pipeline local
 	# Run logs
-	docker logs job
+	./scripts/logsDocker.sh
 
 buildDocker:
 	# Run build Docker
@@ -31,9 +32,17 @@ createContainer:
 	# Run Create container
 	./scripts/createContainer.sh
 
+logsDocker:
+	# Run logs
+	./scripts/psDocker.sh
+
 killDocker:
 	# Run kill docker
 	./scripts/killDocker.sh
+
+psDocker:
+	# Run Active docker
+	./scripts/psDocker.sh
 
 compose-job:
 	# Run build
