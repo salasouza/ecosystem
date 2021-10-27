@@ -34,7 +34,7 @@ createContainer:
 
 logsDocker:
 	# Run logs
-	./scripts/psDocker.sh
+	./scripts/logsDocker.sh
 
 killDocker:
 	# Run kill docker

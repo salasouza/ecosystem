@@ -9,6 +9,7 @@ numpy
 statsmodels
 joblib
 wordcloud
+Pillow
 
 # Libs for spark
 pyspark

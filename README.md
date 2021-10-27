@@ -10,7 +10,7 @@ Docker environment
     docker run --rm --name job -p 8888:8888 -v $(pwd)/:/project -d python_local:latest # create container mapeando a pasta project
 
     # docker run --rm --name job -p 8888:8888  -d python_local:latest # create container -->
-    # utilizando arquivos internos da imagem docker 
+    # utilizando arquivos internos da imagem docker
 
     docker ps                 # see docker
 
@@ -21,9 +21,11 @@ Docker environment
 ## Instructions for docker-compose
 
 ``` sh
-    docker-compose up -d # Creating job
+    docker-compose up -d          # Creating job
 
-    docker-compose ps    # see docker-compose
+    docker-compose ps             # see docker-compose
 
-    docker-compose exec job bash # To execute docker-compose
+    docker-compose logs job       # see job
+
+    docker-compose exec job bash  # To execute docker-compose
 ```
