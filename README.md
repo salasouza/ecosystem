@@ -30,4 +30,6 @@ Docker environment
     docker-compose exec job bash  # To execute docker-compose
 ```
 
-# Instructions in Makefile
+# Instructions for Makefile
+
+For better use of the Docker see the instructions in the makefile file.
