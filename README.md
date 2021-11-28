@@ -9,6 +9,8 @@ Docker environment
 
     docker run --rm --name job -p 8888:8888 -v $(pwd)/:/project -d python_local:latest # create container mapeando a pasta project
 
+    [windows] docker run --rm --name job -p 8888:888 -v /project -d python_local:latest
+
     # docker run --rm --name job -p 8888:8888  -d python_local:latest # create container -->
     # utilizando arquivos internos da imagem docker
 
