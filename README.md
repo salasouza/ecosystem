@@ -35,3 +35,7 @@ Docker environment
 # Instructions for Makefile
 
 For better use of the Docker see the instructions in the makefile file.
+
+# Architecture
+
+![Alt text here](images/pipeline_uml.png)
