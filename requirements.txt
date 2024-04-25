@@ -10,7 +10,8 @@ statsmodels
 joblib
 wordcloud
 Pillow
-
+jupyterlabclea
+apache-beam
 # Libs for spark
 pyspark
 

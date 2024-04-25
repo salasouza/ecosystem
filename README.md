@@ -40,6 +40,12 @@ Docker environment
     docker exec -it job bash  # enter in docker
 
     docker rm -f job          # kill docker
+
+	docker stop $(docker ps -a -q)
+
+	docker rmi $(docker images -a -q)
+
+	docker images 
 ```
 ## Instructions for docker-compose
 
